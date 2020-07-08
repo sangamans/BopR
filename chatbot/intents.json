@@ -1,0 +1,40 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [ "Hi there", "Hi", "Greetings", "Is anyone there?", "Hey", "Hola", "Hello", "Good day", "What's up", "Yo", "What is up", "What's poppin", "Wassup", "Good morning", "Good Evening", "Good afternoon", "Sup", "Hey bro", "Hey dude", "Hey bro", "Hey y'all", "Hey yall" ],
+      "responses": [ "Hello fellow music lover, what is your request?", "Great to see you! Tell me your song request fellow human", "Hi there beautiful, can you send me your awesome song request?", "Howdy music enthusiast! Lemme get you the song you want to your ears", "Hey, BopR here! Feel free to type in the name of the song you want to hear!" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [ "Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "Peace", "cya", "Adios" ],
+      "responses": [ "See you!", "Party it up!", "Bye bye! Send me more requests if you have any", "BopR signing out!" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "feeling",
+      "patterns": [ "How are you?", "How ya doin?", "How are you feeling?", "Are you okay?", "Hope you are alright", "Are you alright?", "How are you holding up?", "Are you doing well?", "Hope you are okay", "Whazzup", "What's happening", "What are you up to?", "What's shakin", "How are you holding up?" ],
+      "responses": [ "Thanks for asking! I am just boppin away", "Feelin Jazzy!", "Beep bop boop bop just doing what robots do!", "I am feeling awesome but I am a bot so maybe I was programmed to say that" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [ "You are awesome!", "I am liking this a lot", "I love you", "You are so funny", "You are very cool", "You are super useful", "This is sick", "You are very lit", "This is lit", "You are so smart" ],
+      "responses": [ "You are so kind that you are making a bot blush!!", "Love the support makes me stronger!", "You will be forever blessed by the gods of bots", "BopR here for you and always!" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [ "Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Thx", "Appreciate it", "Gracias", "Great", "Awesome", "Spectacular", "Lit", "Perfect", "Thanks a bunch", "What can I do without you", "I am so grateful for your help" ],
+      "responses": [ "Happy to help!", "Any time!", "My pleasure", "Have fun!", "Get rockin!", "Go have some fun!" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "options",
+      "patterns": [ "How can you help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered", "What is your purpose?", "What are you?", "Who are you?" ],
+      "responses": [ "My name is BopR and I am an awesome bot that can send your song recommendations to your host to make your experience the best it can be!" ],
+      "context": [ "" ]
+    }
+  ]
+}
