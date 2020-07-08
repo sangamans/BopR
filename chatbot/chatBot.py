@@ -14,7 +14,7 @@ import json
 from spotifyAPI import SpotifyAPI
 # client ids for the spotify api and the object
 client_id = "35d7fb31230a44dea10ce665bb8571c6"
-client_secret = "08bb71884c274f79bcf00e08916c74dc"
+client_secret = "shh its a secret"
 spotify = SpotifyAPI(client_id, client_secret)
 # load the saved model
 model = tf.keras.models.load_model("chatbotEngine")
