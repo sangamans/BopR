@@ -5,7 +5,7 @@ import datetime
 import urllib.parse
 
 client_id = "35d7fb31230a44dea10ce665bb8571c6"
-client_secret = "08bb71884c274f79bcf00e08916c74dc"
+client_secret = "this will remain a secret cause my code is public LOL"
 
 class SpotifyAPI(object):
     access_token = None
